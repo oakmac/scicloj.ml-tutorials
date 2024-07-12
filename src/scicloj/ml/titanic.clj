@@ -65,11 +65,11 @@ with the :survived using cramers-v-corrected:"]
    (stats/cramers-v-corrected (get data c1) (get data  c2))})
   
 
-["This shows how much the columns are correlated. "]
+["This shows how much the columns are correlated."]
 
 ["## clean some of the features"]
 
-["The follwoing functios will be used in the pipeline. They clean the
+["The follwoing functions will be used in the pipeline. They clean the
 features to make them better predictors."]
 
 (defn categorize-cabin [data]
